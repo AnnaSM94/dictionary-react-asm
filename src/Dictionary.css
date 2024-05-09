@@ -1,3 +1,7 @@
 .Dictionary {
   background-color: rgb(116, 228, 181, 0.2);
 }
+
+.Dictionary form {
+  text-align: center;
+}
