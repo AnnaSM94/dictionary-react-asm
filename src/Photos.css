@@ -1,0 +1,17 @@
+.Photos .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.Photos .col-4 {
+  flex: 33.33%;
+  padding: 10, 10px;
+}
+
+.Photos img {
+  border-radius: 4px;
+  vertical-align: middle;
+  width: 97%;
+  margin-top: 10px;
+}
