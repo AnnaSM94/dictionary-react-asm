@@ -1,7 +1,42 @@
-.Dictionary {
-  background-color: rgb(116, 228, 181, 0.2);
+.Dictionary h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .Dictionary form {
   text-align: center;
+}
+
+.Dictionary section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 5%);
+  margin: 20px 0;
+}
+
+.Dictionary .Search-input {
+  width: 70%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+.Dictionary .Search-button {
+  width: 30%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+  transition: all ease-in-out;
+}
+
+.Dictionary .Search-button:hover {
+  background-color: #dbdada;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
 }
